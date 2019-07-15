@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+*{
+    margin:0; /* va indicare che non c'è margine laterale */
+}
+
+img {
+    border:none;
+}
+/* shft di sx+option+parentesi quadra = parentesi graffa */
+
+body {
+    
+    background-color: #1B2258;    
+}
+
+#menu {
+    height: 40px;
+    width:  1120px;
+   
+}
+#contenuto_menu {
+    line-height: 50px;
+    margin: 0 auto;
+    float:right;
+}
+
+.ancore_menu{
+    color: #fff;
+    font-size: 12px;
+    font-family: Arial Narrow, sans-serif;
+    text-decoration: none;
+    margin-right: 35px;
+    line-height: 40px; }
+a:link {
+    color: #E8BBFE;
+    text-decoration: none;
+
+}
+a:visited {
+    color: #fff;
+}
+
+a:hover {
+    color: #DD4433;
+}
+a:active {
+   color: #DD4433;
+}
+#container {
+    height: 1500px;
+    background-image: url(../img/cover.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;  
+}
+
+#header {
+    height: 300px;
+} 
+h1 {
+    text-align: center;
+    color:#fff;
+    font-family: Arial Narrow, sans-serif;
+    font-weight: normale; /* si può esprimenre anche in valore numerico da 0 a 900 */
+    font-size: 80px;
+    line-height: 10px;
+    text-shadow: 3px 2px purple;
+    word-spacing: 2px; 
+    padding-left: 18px;
+    float: left;
+    /*margin-top: 150px;*/
+    padding-top: 150px;
+}
+
+h3 {
+    text-align: center;
+    color:#fff;
+    font-family: Arial Narrow, sans-serif;
+    font-weight: normale; /* si può esprimenre anche in valore numerico da 0 a 900 */
+    font-size: 30px;
+    word-spacing: 5px;
+    text-shadow: 3px 2px purple;
+    padding-left: 18px;
+    float: left;
+    padding-top: 40px;
+    /*margin-top: 40px;*/
+}
+
+#rosso {
+    color: #DD4433; 
+    text-shadow: 3px 2px #fff;
+    font-size: 48px;
+}
+
+#contenitore_immagine_paragrafi { 
+    width: 1000px;
+    height: 300px;
+    margin: 25px auto 25px;
+}
+
+#immagine_destra {
+    width: 250px;
+    height: 350px;
+    float: right;
+}
+#immagine_destra img{
+    margin-left: 5px;
+}
+
+.motto {
+    height: 50px;
+    text-align:center;
+    background-color: #1B2258;  
+}
+
+.motto p {
+    text-align: center;
+    color:#E8BBFE;
+    font-family: Bradley Hand, cursive;
+    font-weight: normale; /* si può esprimenre anche in valore numerico da 0 a 900 */
+    font-size: 30px;
+    line-height: 50px; 
+    margin-top: 25px;
+}
+
+#slot {
+    height: 500px;
+    
+}
+
+#slot p{
+    color: #E8BBFE;
+    font-size: 30px;
+    font-family: Arial Narrow, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 250px;
+}
+
+#instructions {
+    padding-left: 100px;
+}
+
+#points {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+}
+
+li {
+    color: #E8BBFE;
+    font-size: 20px;
+    font-family: Arial Narrow, sans-serif;
+    text-decoration: none;
+    text-align: justify; 
+    line-height: 40px;
+}
+
+#points p {
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial Narrow, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #fff;
+  text-align: left;
+  padding: 8px;
+  color: #E8BBFE;
+}
+
+tr:nth-child(even) {
+  background-color: #DD4433;
+  color: #1B2258;
+}
+
+#footer {
+    height:100px;
+    background-color: #E8BBFE;
+    
+} 
+
+#footer p {
+
+    color: #1B2258;
+    font-size: 15px;
+    font-family: Arial Narrow, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+#footer_collegio:link {
+    color: #DD4433;
+    text-decoration: none;

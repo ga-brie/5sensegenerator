@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+*{
+    margin:0; /* va indicare che non c'è margine laterale */
+}
+
+img {
+    border:none;
+}
+/* shft di sx+option+parentesi quadra = parentesi graffa */
+
+body {
+    
+    background-color: #1B2258;    
+}
+
+#menu {
+    height: 50px;
+    width:  1200px;
+}
+#contenuto_menu {
+    line-height: 50px;
+    float:right;
+    margin: 5px auto;
+}
+ 
+#contenuto_menu img {
+    margin-right: 515px;
+    text-decoration:none;
+    float:left;
+    padding-bottom: 30px;
+} /* tutte le immagini dentro contenuto_fascia_menu hanno le proprietà indicate */
+
+.ancore_menu {
+    color: #fff;
+    font-size: 12px;
+    font-family: Arial Narrow, sans-serif;
+    text-decoration: none;
+    margin-right: 35px;
+    line-height: 40px; }
+a:link {
+    color: #E8BBFE;
+    text-decoration: none;
+
+}
+a:visited {
+    color: #fff;
+}
+
+a:hover {
+    color: #DD4433;
+}
+a:active {
+   color: #DD4433;
+}
+#container {
+    height: 1600px;
+    background-image: url(../img/cover.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;  
+}
+
+#header {
+    height: 200px;
+} 
+#paragrafi_centro {
+     text-align:center;
+     padding-top: 75px;
+}
+h1 {
+    text-align: center;
+    color:#fff;
+    font-family: Arial Narrow, sans-serif;
+    font-weight: normale; /* si può esprimenre anche in valore numerico da 0 a 900 */
+    font-size: 50px;
+    line-height: 50px;
+    text-shadow: 3px 2px purple;
+    word-spacing: 2px; 
+    padding-top: 20px;
+    /*margin-top: 150px;*/
+}
+
+h3 {
+    text-align: center;
+    color:#fff;
+    font-family: Arial Narrow, sans-serif;
+    font-weight: normale; /* si può esprimenre anche in valore numerico da 0 a 900 */
+    font-size: 15px;
+    word-spacing: 20px;
+    text-shadow: 3px 2px purple;
+}
+
+#rosso {
+    color: #DD4433; 
+    text-shadow: 3px 2px #fff;
+    font-size: 30px;
+}
+
+#contenitore_immagine_paragrafi { 
+    width: 1000px;
+    height: 150px;
+    margin: 25px auto 25px;
+}
+
+#immagine_destra {
+    width: 250px;
+    height: 250px;
+    float: right;
+}
+#immagine_destra img{
+    margin-left: 5px;
+}
+
+.motto {
+    height: 50px;
+    text-align:center;
+    background-color: #E8BBFE;  
+}
+
+.motto p {
+    text-align: center;
+    color:#1B2258;
+    font-family: Bradley Hand, cursive;
+    font-weight: normale; /* si può esprimenre anche in valore numerico da 0 a 900 */
+    font-size: 30px;
+    line-height: 50px; 
+    margin-top: 25px;
+}
+.stimula {
+    height: 350px;
+}
+
+#motto_2
+{
+    height: 50px;
+    text-align:center;
+    background-color: #1B2258;  
+}
+#motto_2 a {
+    text-align: center;
+    font-family: Bradley Hand, cursive;
+    font-weight: normale; /* si può esprimenre anche in valore numerico da 0 a 900 */
+    font-size: 30px;
+    line-height: 50px; 
+    margin-top: 25px;
+}
+
+#footer {
+    background-color: #E8BBFE;   
+} 
+
+#footer p {
+
+    color: #1B2258;
+    font-size: 15px;
+    font-family: Arial Narrow, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+#footer_collegio:link {
+    color: #DD4433;
+    text-decoration: none;
