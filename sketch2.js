@@ -106,13 +106,13 @@ function running(){
 
 function goahead(){
  rrnd=int(random(8));
- if (rrnd==0) {aa=createA("https://ga-brie.github.io/5sensegenerator/A1//","press here to continue"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
- if (rrnd==1) {aa=createA("https://ga-brie.github.io/5sensegenerator/A2/","press here to continue"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
- if (rrnd==2) {aa=createA("https://ga-brie.github.io/5sensegenerator/A3/","press here to continue"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
- if (rrnd==3) {aa=createA("https://ga-brie.github.io/5sensegenerator/A4//","press here to continue"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
- if (rrnd==4) {aa=createA("https://ga-brie.github.io/5sensegenerator/A5/","press here to continue"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
- if (rrnd==5) {aa=createA("https://ga-brie.github.io/5sensegenerator/A6/","press here to continue"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
- if (rrnd==6) {aa=createA("https://ga-brie.github.io/5sensegenerator/A7/","press here to continue"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
- if (rrnd==7) {aa=createA("https://ga-brie.github.io/5sensegenerator/A8/","press here to continue"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
+ if (rrnd==0) {aa=createA("https://ga-brie.github.io/5sensegenerator/A1//","PRESS HERE TO CONTINUE"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
+ if (rrnd==1) {aa=createA("https://ga-brie.github.io/5sensegenerator/A2/","PRESS HERE TO CONTINUE"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
+ if (rrnd==2) {aa=createA("https://ga-brie.github.io/5sensegenerator/A3/","PRESS HERE TO CONTINUE"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
+ if (rrnd==3) {aa=createA("https://ga-brie.github.io/5sensegenerator/A4//","PRESS HERE TO CONTINUE"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
+ if (rrnd==4) {aa=createA("https://ga-brie.github.io/5sensegenerator/A5/","PRESS HERE TO CONTINUE"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
+ if (rrnd==5) {aa=createA("https://ga-brie.github.io/5sensegenerator/A6/","PRESS HERE TO CONTINUE"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
+ if (rrnd==6) {aa=createA("https://ga-brie.github.io/5sensegenerator/A7/","PRESS HERE TO CONTINUE"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
+ if (rrnd==7) {aa=createA("https://ga-brie.github.io/5sensegenerator/A8/","PRESS HERE TO CONTINUE"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
 
 }
