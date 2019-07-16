@@ -26,10 +26,11 @@ function setup() {
   sy=50;
 
 
+  /*
   start=createButton('START');
   start.position(350,200);
   start.style('background', 'orange');
-  start.mousePressed(running);
+  star*/
 
   textSize(60);
   fill(0);
@@ -104,8 +105,14 @@ function running(){
 }
 
 function goahead(){
- rrnd=int(random(2));
- if (rrnd==0) {aa=createA("https://www.thedoors.com/","press here to continue"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
- if (rrnd==1) {aa=createA("https://www.thedoors.com/","press there to continue"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
+ rrnd=int(random(8));
+ if (rrnd==0) {aa=createA("http://venus.unive.it/warglien/ricerca/A1/","press here to continue"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
+ if (rrnd==1) {aa=createA("http://venus.unive.it/warglien/ricerca/A2/","press here to continue"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
+ if (rrnd==2) {aa=createA("http://venus.unive.it/warglien/ricerca/A3/","press here to continue"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
+ if (rrnd==3) {aa=createA("http://venus.unive.it/warglien/ricerca/A4/","press here to continue"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
+ if (rrnd==4) {aa=createA("http://venus.unive.it/warglien/ricerca/A5/","press here to continue"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
+ if (rrnd==5) {aa=createA("http://venus.unive.it/warglien/ricerca/A6/","press here to continue"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
+ if (rrnd==6) {aa=createA("http://venus.unive.it/warglien/ricerca/A7/","press here to continue"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
+ if (rrnd==7) {aa=createA("http://venus.unive.it/warglien/ricerca/A8/","press here to continue"),aa.position(500,650),aa.style('font-size','32px'),c=0;run=2;noLoop();};
 
 }
