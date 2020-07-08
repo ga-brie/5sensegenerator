@@ -20,7 +20,7 @@ function preload(){
 
 function setup() {
   cnv=createCanvas(425,450);
-  cnv.position(20,500);
+  cnv.position(50%,30%);
   noStroke();
   sx=50;
   sy=50;
