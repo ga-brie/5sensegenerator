@@ -10,14 +10,14 @@ img {
 /* shft di sx+option+parentesi quadra = parentesi graffa */
 
 body {
-    
-    background-color: #1B2258;    
+
+    background-color: #1B2258;
 }
 
 #menu {
     height: 40px;
     width:  1120px;
-   
+
 }
 #contenuto_menu {
     line-height: 50px;
@@ -52,12 +52,12 @@ a:active {
     background-image: url(../img/cover.png);
     background-size: cover;
     background-position: center;
-    background-repeat: repeat;  
+    background-repeat: repeat;
 }
 
 #header {
     height: 300px;
-} 
+}
 h1 {
     text-align: center;
     color:#fff;
@@ -66,7 +66,7 @@ h1 {
     font-size: 80px;
     line-height: 10px;
     text-shadow: 3px 2px purple;
-    word-spacing: 2px; 
+    word-spacing: 2px;
     padding-left: 18px;
     float: left;
     /*margin-top: 150px;*/
@@ -88,12 +88,12 @@ h3 {
 }
 
 #rosso {
-    color: #DD4433; 
+    color: #DD4433;
     text-shadow: 3px 2px #fff;
     font-size: 48px;
 }
 
-#contenitore_immagine_paragrafi { 
+#contenitore_immagine_paragrafi {
     width: 1000px;
     height: 300px;
     margin: 25px auto 25px;
@@ -111,7 +111,7 @@ h3 {
 .motto {
     height: 50px;
     text-align:center;
-    background-color: #1B2258;  
+    background-color: #1B2258;
 }
 
 .motto p {
@@ -120,13 +120,13 @@ h3 {
     font-family: Bradley Hand, cursive;
     font-weight: normale; /* si può esprimenre anche in valore numerico da 0 a 900 */
     font-size: 30px;
-    line-height: 50px; 
+    line-height: 50px;
     margin-top: 25px;
 }
 
 #slot {
     height: 500px;
-    
+
 }
 
 #slot p{
@@ -153,7 +153,7 @@ li {
     font-size: 20px;
     font-family: Arial Narrow, sans-serif;
     text-decoration: none;
-    text-align: justify; 
+    text-align: justify;
     line-height: 40px;
 }
 
@@ -189,8 +189,8 @@ tr:nth-child(even) {
 #footer {
     height:100px;
     background-color: #E8BBFE;
-    
-} 
+
+}
 
 #footer p {
 
@@ -205,3 +205,9 @@ tr:nth-child(even) {
 #footer_collegio:link {
     color: #DD4433;
     text-decoration: none;
+}
+
+#defaultCanvas0 {
+  display: flex;
+  justify-content: center;
+}
